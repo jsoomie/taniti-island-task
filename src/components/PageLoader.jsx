@@ -61,6 +61,7 @@ function PageLoader({ children }) {
     <>
       {showSpinner && (
         <div className="loading-screen">
+          <h1>Loading...</h1>
           <div className="spinner" />
         </div>
       )}
