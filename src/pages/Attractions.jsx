@@ -60,7 +60,7 @@ function Attractions() {
       <div className="hero-image-container">
         <img
           src="./attractions-main.jpg"
-          alt="girl on e-bike"
+          alt="island view"
           className="hero-image"
         />
         <div className="hero-overlay">

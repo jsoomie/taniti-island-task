@@ -32,10 +32,21 @@ function Visit() {
         buttonText="FAQs About Taniti Islands"
         to="/FAQ"
       />
+
       <div className="container">
         <div className="headers">
-          <h1>The Islands of Taniti</h1>
-          <p>Find yourself here...</p>
+          <h1>Welcome to Paradise</h1>
+          <h3>Your Ulimate Island Escape Awaits</h3>
+          <p>
+            Disconnection isn't a luxury here, it's a way of life. From the
+            moment you step off the boat or plane, the rhythm of the tides takes
+            over. Whether you're here to trek through hidden coastal trails,
+            dive into pristine waters, or just watch the horizon fade from gold
+            to violet with your toes in the sand, you've found your destination.
+            <br />
+            <br />
+            Pack light. Breathe deep. Leave the mainland behind.
+          </p>
         </div>
 
         <div className="container content">
