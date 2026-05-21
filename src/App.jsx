@@ -1,4 +1,4 @@
-import { HashRouter } from "react-router-dom";
+import { HashRouter, BrowserRouter } from "react-router-dom";
 import {
   Routing,
   Navbar,
@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Navbar />
         <PageLoader>
@@ -20,7 +20,7 @@ function App() {
           </main>
         </PageLoader>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
